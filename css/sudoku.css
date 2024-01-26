@@ -1,0 +1,50 @@
+body{
+  background-color:black;
+  background-image: url("../images/background2.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title{
+  color: rgb(0, 0, 0) ;
+  text-align: center;
+}
+#score{
+  color: rgb(13, 148, 238) ;
+  text-align: center;
+}
+#mistakes{
+  color :red;
+  text-align: center;
+}
+.sudoku{
+  background-color: rgb(158, 250, 255);
+  width: 30.2rem;
+  height: 29.1rem;
+  position: relative;
+  left:34%;
+  text-align: center;
+  justify-content: center;
+  
+}
+.cube{
+  background: transparent;
+  width: 3rem;
+  height: 3rem;
+  border:1px solid black;
+  text-align: center;
+  font-weight: bold;
+ 
+  
+}
+.btn {
+  background-color: rgb(13, 148, 238);
+  border:1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  margin-left: 47%;
+
+
+}
